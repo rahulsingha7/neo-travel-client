@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCsEsnQz4NQipPsp9OY3W9D3piI85u4yIk",
-    authDomain: "neo-travels.firebaseapp.com",
-    projectId: "neo-travels",
-    storageBucket: "neo-travels.appspot.com",
-    messagingSenderId: "892888302046",
-    appId: "1:892888302046:web:16bf75b3b08dca1e381d4f"
+    apiKey:process.env.REACT_APP_FIREBASE_APIKEY, 
+    authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
+    appId:  process.env.REACT_APP_FIREBASE_APPID,
   };
 export default firebaseConfig;
